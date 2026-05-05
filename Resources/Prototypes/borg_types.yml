@@ -120,6 +120,8 @@
   - type: NoWieldNeeded
   - type: SlavedBorg # Goobstation: Special AI labeling for salv borgs.
     law: SalvageObeyAI
+  - type: PointLight
+    radius: 8
 
   lawset: Salvage # DeltaV: Custom lawset
 
