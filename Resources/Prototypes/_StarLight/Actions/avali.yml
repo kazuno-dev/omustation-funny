@@ -27,3 +27,16 @@
     - type: InstantAction
       event: !type:ExitStasisActionEvent
 
+- type: entity
+  parent: BaseAction
+  id: ActionPounce
+  name: Pounce
+  description: Pounce in the direction of your gaze with your strong legs.
+  components:
+  - type: Action
+    useDelay: 8
+    icon:
+      sprite: _Starlight/Interface/Action/actions_avali.rsi
+      state: empty
+  - type: InstantAction
+    event: !type:GravityJumpEvent

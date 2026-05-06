@@ -101,6 +101,11 @@
   components:
     - type: Sprite
       state: "l_leg"
+    - type: BodyPart
+    onAdd:
+      - type: JumpAbility
+        JumpDistance: 3
+        JumpThrowSpeed: 15
 
 - type: entity
   parent: [PartAvali, BaseRightLeg]
