@@ -102,8 +102,11 @@
   - type: BodyPart
     onAdd:
     - type: JumpAbility
-      JumpDistance: 3
-      JumpThrowSpeed: 15
+      jumpDistance: 3
+      jumpThrowSpeed: 15
+    - type: ActionGrant
+      actions:
+      - ActionPounce
   - type: Sprite
     state: "l_leg"
 
