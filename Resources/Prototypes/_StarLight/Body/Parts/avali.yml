@@ -99,13 +99,13 @@
   id: LeftLegAvali
   name: "left avali leg"
   components:
-    - type: Sprite
-      state: "l_leg"
-    - type: BodyPart
+  - type: BodyPart
     onAdd:
-      - type: JumpAbility
-        JumpDistance: 3
-        JumpThrowSpeed: 15
+    - type: JumpAbility
+      JumpDistance: 3
+      JumpThrowSpeed: 15
+  - type: Sprite
+    state: "l_leg"
 
 - type: entity
   parent: [PartAvali, BaseRightLeg]

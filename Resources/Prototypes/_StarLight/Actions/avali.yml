@@ -36,7 +36,7 @@
   - type: Action
     useDelay: 8
     icon:
-      sprite: _Starlight/Interface/Action/actions_avali.rsi
+      sprite: _Starlight/Interface/Actions/actions_avali.rsi
       state: empty
   - type: InstantAction
-    event: !type:GravityJumpEvent
+    event: !type:GravityJumpEvent {}
