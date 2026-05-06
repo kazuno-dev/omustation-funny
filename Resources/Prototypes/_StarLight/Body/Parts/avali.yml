@@ -99,12 +99,13 @@
   id: LeftLegAvali
   name: "left avali leg"
   components:
-  - type: BodyPart
+  - type: BodyPart # shoved together by Kazuno
     onAdd:
-    - type: JumpAbility
+    - type: JumpAbility # "nerfed" jump ability for the pounce
       jumpDistance: 3
       jumpThrowSpeed: 15
-    - type: ActionGrant
+      jumpSound: /Audio/Effects/thudswoosh.ogg # this took over 2 hours to find and im mad about that
+    - type: ActionGrant # i feel kinda stupid for not granting the action first but ActionPounce is whats used for its action
       actions:
       - ActionPounce
   - type: Sprite
