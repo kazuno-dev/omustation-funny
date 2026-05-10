@@ -46,5 +46,5 @@
   examineText: contraband-examine-text-Clown
 
 - type: contrabandSeverity
-  id: MajorDepartment
+  id: MajorRestricted
   examineText: contraband-examine-text-Restricted-department-major

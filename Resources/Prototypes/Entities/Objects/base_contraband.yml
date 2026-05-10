@@ -72,6 +72,15 @@
     allowedDepartments: [  ]
     allowedJobs: [  ]
 
+# base department major contraband, this should only be used as a parent
+#- type: entity
+#  id: BaseRestrictedMajorContraband
+#  abstract: true
+#  - type: Contraband
+#    severity: MajorRestricted
+#    allowedDepartments: [  ]
+#    allowedJobs: [  ]
+
 # one department restricted contraband
 - type: entity
   id: BaseCentcommContraband
