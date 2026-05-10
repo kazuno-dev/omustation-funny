@@ -45,6 +45,6 @@
   id: Honkraband
   examineText: contraband-examine-text-Clown
 
-  type: contrabandSeverity
+- type: contrabandSeverity
   id: MajorDepartment
   examineText: contraband-examine-text-Restricted-department-major
