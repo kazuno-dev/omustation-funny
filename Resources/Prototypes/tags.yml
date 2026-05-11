@@ -1478,6 +1478,9 @@
   id: SalvageScrap
 
 - type: Tag
+  id: Stamp
+
+- type: Tag
   id: Scarf
 
 - type: Tag

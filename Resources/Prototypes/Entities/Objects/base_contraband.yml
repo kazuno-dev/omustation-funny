@@ -72,7 +72,7 @@
     allowedDepartments: [  ]
     allowedJobs: [  ]
 
-# base department major contraband, this should only be used as a parent
+# base department major contraband, this should only be used as a parent DO NOT USE THIS IT IS BROKEN AND UNCOMMENTING IT WILL CRASH THE GAME ill eventually fix this
 #- type: entity
 #  id: BaseRestrictedMajorContraband
 #  abstract: true
@@ -96,6 +96,7 @@
   abstract: true
   components:
   - type: Contraband
+    severity: MajorRestricted
     allowedDepartments: [ Command ]
 
 - type: entity
