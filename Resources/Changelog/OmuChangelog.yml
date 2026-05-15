@@ -4020,3 +4020,11 @@ Entries:
       message: Thaven guidebook changed, must now follow regular escalation.
   id: 510
   time: '2026-05-15T00:29:15.0000000+00:00'
+- author: CliveOcelot
+  changes:
+    - type: Remove
+      message: >-
+        Removed the artifact abductor gland due to it causing heavy server lag
+        at random.
+  id: 511
+  time: '2026-05-15T05:42:23.0000000+00:00'
