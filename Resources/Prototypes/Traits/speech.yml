@@ -72,6 +72,16 @@
   countsTowardsMaxTraits: false # Omustation - Don't count accents towards max traits
 
 - type: trait
+  id: RussianAccent
+  name: trait-russian-name
+  description: trait-russian-desc
+  category: SpeechTraits
+  cost: 1
+  components:
+  - type: RussianAccent
+  countsTowardsMaxTraits: false # Omustation - Don't count accents towards max traits
+
+- type: trait
   id: ItalianAccent
   name: trait-italian-name
   description: trait-italian-desc

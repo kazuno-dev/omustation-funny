@@ -87,6 +87,9 @@ trait-german-desc = You seem to come from space Germany.
 trait-italian-name = Italian accent
 trait-italian-desc = Mamma mia! You seem to have lived in space Italy!
 
+trait-russian-name = Russian accent
+trait-russian-desc = You are from space Russia. Respect your comrades.
+
 trait-french-name = French accent
 trait-french-desc = Your accent seems to have a certain «je ne sais quoi».
 
