@@ -274,7 +274,7 @@
 - type: loadout
   id: CentCommFlippo
   effects:
-  - Job!type:RequirementLoadoutEffect
+  - !type:RequirementLoadoutEffect
     requirement:
       !type:DepartmentTimeRequirement
       department: CentComm
