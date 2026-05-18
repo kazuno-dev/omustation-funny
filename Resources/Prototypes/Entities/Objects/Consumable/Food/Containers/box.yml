@@ -452,7 +452,7 @@
     contents:
     - id: FoodDonkpocket
       amount: 6
-    - id: DonkcoLighter
+    - id: DonkCoFlippo
       amount: 1
       prob: 0.10
 

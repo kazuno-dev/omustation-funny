@@ -202,6 +202,101 @@
   groupBy: "smokeables"
 
 - type: loadout
+  id: InterdyneFlippo
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: Medical
+      time: 360000 # 100hr
+  storage:
+    back:
+    - InterdyneFlippo
+  groupBy: "smokeables"
+
+- type: loadout
+  id: CybersunFlippo
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: Security
+      time: 180000 # 50hr
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: Engineering
+      time: 180000 # 50hr
+  storage:
+    back:
+    - CybersunFlippo
+  groupBy: "smokeables"
+
+- type: loadout
+  id: NanotrasenFlippo
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: Command
+      time: 360000 # 100hr
+  storage:
+    back:
+    - NanotrasenFlippo
+  groupBy: "smokeables"
+
+- type: loadout
+  id: WaffleCoFlippo
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: Cargo
+      time: 360000 # 100hr
+  storage:
+    back:
+    - WaffleCoFlippo
+  groupBy: "smokeables"
+
+- type: loadout
+  id: DonkCoFlippo
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: Civilian
+      time: 360000 # 100hr
+  storage:
+    back:
+    - DonkCoFlippo
+  groupBy: "smokeables"
+
+- type: loadout
+  id: CentCommFlippo
+  effects:
+  - Job!type:RequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: CentComm
+      time: 180000 # 50hr
+  storage:
+    back:
+    - CentCommFlippo
+
+- type: loadout
+  id: HonkCoFlippo
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobClown
+      time: 360000 # 100hr
+  storage:
+    back:
+    - HonkCoFlippo
+  groupBy: "smokeables"
+
+- type: loadout
   id: GreyTideStamp
   effects:
   - !type:GroupLoadoutEffect
