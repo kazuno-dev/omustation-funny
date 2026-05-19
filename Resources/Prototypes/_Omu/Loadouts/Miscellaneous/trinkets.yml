@@ -201,6 +201,20 @@
     - FlippoLighter
   groupBy: "smokeables"
 
+- type: loadoutEffectGroup
+  id: CyberFlippo
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: Security
+      time: 180000 # 50 hrs
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:DepartmentTimeRequirement
+      department: Engineering
+      time: 180000 # 50 hrs
+
 - type: loadout
   id: InterdyneFlippo
   effects:
@@ -217,16 +231,8 @@
 - type: loadout
   id: CybersunFlippo
   effects:
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:DepartmentTimeRequirement
-      department: Security
-      time: 180000 # 50hr
-  - !type:JobRequirementLoadoutEffect
-    requirement:
-      !type:DepartmentTimeRequirement
-      department: Engineering
-      time: 180000 # 50hr
+  - !type:GroupLoadoutEffect
+    proto: CyberFlippo
   storage:
     back:
     - CybersunFlippo
@@ -277,7 +283,7 @@
   - !type:RequirementLoadoutEffect
     requirement:
       !type:DepartmentTimeRequirement
-      department: CentComm
+      department: CentralCommand
       time: 180000 # 50hr
   storage:
     back:
