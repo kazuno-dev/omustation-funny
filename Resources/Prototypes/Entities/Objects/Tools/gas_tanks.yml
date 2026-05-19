@@ -172,6 +172,26 @@
     speedModifier: 0.6 # fairly unwieldly but nice round surface
 
 - type: entity
+  parent: GasTankBase
+  id: DoubleGasTank
+  name: double tank
+  description: A non-standard gas tank that was welded together so it could hold more gas. It can hold 10 L of gas.
+  components:
+  - type: Sprite
+    sprite: Objects/Tanks/generic_double.rsi
+    state: icon
+  - type: Item
+    size: Normal
+    sprite: Objects/Tanks/generic_double.rsi
+  - type: GasTank
+    outputPressure: 21.3
+    air:
+      # If gas tank volume is changed, adjust MinimumTritiumOxyburnEnergy in Atmospherics.cs by the same proportions
+      volume: 10
+      temperature: 293.15
+    tankLowPressure: 30.0
+
+- type: entity
   parent: GasTankRoundBase
   id: OxygenTank
   name: oxygen tank
