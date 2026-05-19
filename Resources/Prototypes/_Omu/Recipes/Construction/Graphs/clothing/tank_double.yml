@@ -22,6 +22,11 @@
 
     - node: unfinishedtank
       entity: UnweldedDoubleGasTank
+      edges:
+      - to: finishedtank
+        steps:
+        - tool: Welding
+          doAfter: 10
 
     - node: finishedtank
       entity: DoubleGasTank

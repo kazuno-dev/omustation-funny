@@ -12,11 +12,10 @@
     sprite: _Omu/Objects/Tanks/generic_double.rsi
   - type: Construction
     graph: TankDoubleWeld
-    node: unfinishedtank
+    node: finishedtank
   - type: GasTank
     outputPressure: 21.3
     air:
-      # If gas tank volume is changed, adjust MinimumTritiumOxyburnEnergy in Atmospherics.cs by the same proportions
       volume: 10
       temperature: 293.15
     tankLowPressure: 30.0
