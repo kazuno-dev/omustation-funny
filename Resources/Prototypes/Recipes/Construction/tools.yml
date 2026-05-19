@@ -47,3 +47,11 @@
   targetNode: memory_cell
   category: construction-category-tools
   objectType: Item
+
+- type: construction
+  id: TankDouble
+  graph: TankDoubleWeld
+  startNode: start
+  targetNode: unfinishedtank
+  category: construction-category-tools
+  objectType: item

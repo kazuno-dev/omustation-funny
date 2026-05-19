@@ -1,0 +1,35 @@
+- type: entity
+  parent: GasTankBase
+  id: DoubleGasTank
+  name: double tank
+  description: A non-standard gas tank that was welded together so it could hold more gas. It can hold 10 L of gas.
+  components:
+  - type: Sprite
+    sprite: _Omu/Objects/Tanks/generic_double.rsi
+    state: icon
+  - type: Item
+    size: Normal
+    sprite: _Omu/Objects/Tanks/generic_double.rsi
+  - type: Construction
+    graph: TankDoubleWeld
+    node: unfinishedtank
+  - type: GasTank
+    outputPressure: 21.3
+    air:
+      # If gas tank volume is changed, adjust MinimumTritiumOxyburnEnergy in Atmospherics.cs by the same proportions
+      volume: 10
+      temperature: 293.15
+    tankLowPressure: 30.0
+
+- type: entity
+  parent: BaseItem
+  id: UnweldedDoubleGasTank
+  name: wired tanks
+  description: its 2 Tanks strapped together. Might need further work to be usable.
+  components:
+  - type: Sprite
+    sprite: _Omu/Objects/Tanks/generic_double.rsi
+    state: unfinished
+  - type: Item
+    size: Normal
+    sprite: _Omu/Objects/Tanks/generic_double.rsi

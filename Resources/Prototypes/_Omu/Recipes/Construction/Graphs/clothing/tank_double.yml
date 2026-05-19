@@ -1,0 +1,27 @@
+- type: constructionGraph
+  id: TankDoubleWeld
+  start: start
+  graph:
+    - node: start
+      edges:
+      - to: unfinishedtank
+        steps:
+        - tag: FullTank
+          icon:
+            sprite: Objects/Tanks/generic.rsi
+            state: icon
+          name: construction-graph-tag-dank
+        - tag: FullTank
+          icon:
+            sprite: Object/Tanks/generic.rsi
+            state: icon
+          name: construction-graph-tag-dank
+        - material: Cable
+          amount: 10
+          doAfter: 5
+
+    - node: unfinishedtank
+      entity: UnweldedDoubleGasTank
+
+    - node: finishedtank
+      entity: DoubleGasTank

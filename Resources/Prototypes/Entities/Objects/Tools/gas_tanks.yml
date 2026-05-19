@@ -172,26 +172,6 @@
     speedModifier: 0.6 # fairly unwieldly but nice round surface
 
 - type: entity
-  parent: GasTankBase
-  id: DoubleGasTank
-  name: double tank
-  description: A non-standard gas tank that was welded together so it could hold more gas. It can hold 10 L of gas.
-  components:
-  - type: Sprite
-    sprite: Objects/Tanks/generic_double.rsi
-    state: icon
-  - type: Item
-    size: Normal
-    sprite: Objects/Tanks/generic_double.rsi
-  - type: GasTank
-    outputPressure: 21.3
-    air:
-      # If gas tank volume is changed, adjust MinimumTritiumOxyburnEnergy in Atmospherics.cs by the same proportions
-      volume: 10
-      temperature: 293.15
-    tankLowPressure: 30.0
-
-- type: entity
   parent: GasTankRoundBase
   id: OxygenTank
   name: oxygen tank
@@ -203,6 +183,9 @@
     sprite: Objects/Tanks/oxygen.rsi
   - type: Clothing
     sprite: Objects/Tanks/oxygen.rsi
+  - type: Tag
+    tags:
+    - FullTank
 
 - type: entity
   parent: GasTankRoundBase
@@ -216,7 +199,9 @@
     sprite: Objects/Tanks/red.rsi
   - type: Clothing
     sprite: Objects/Tanks/red.rsi
-
+  - type: Tag
+    tags:
+    - FullTank
 - type: entity
   parent: GasTankRoundBase
   id: EmergencyOxygenTank
@@ -367,6 +352,9 @@
   components:
   - type: GasTank
     outputPressure: 101.3
+  - type: Tag
+    tags:
+    - FullTank
 
 - type: entity
   parent: GasTankRoundBase
@@ -382,6 +370,9 @@
     outputPressure: 30.4
   - type: Clothing
     sprite: Objects/Tanks/anesthetic.rsi
+  - type: Tag
+    tags:
+    - FullTank
 
 - type: entity
   # it's a square so no rolling dough
