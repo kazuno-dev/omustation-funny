@@ -4,7 +4,7 @@
   graph:
     - node: start
       edges:
-      - to: unfinishedtank
+      - to: wiredtank
         steps:
         - tag: FullTank
           icon:
@@ -13,20 +13,31 @@
           name: construction-graph-tag-dank
         - tag: FullTank
           icon:
-            sprite: Object/Tanks/generic.rsi
+            sprite: Objects/Tanks/generic.rsi
             state: icon
           name: construction-graph-tag-dank
         - material: Cable
           amount: 10
           doAfter: 5
 
-    - node: unfinishedtank
+    - node: wiredtank
       entity: UnweldedDoubleGasTank
       edges:
-      - to: finishedtank
+      - to: doubletank
         steps:
         - tool: Welding
           doAfter: 10
 
-    - node: finishedtank
+    - node: doubletank
       entity: DoubleGasTank
+      edges:
+      - to: start
+        steps:
+        - tool: Welding
+          doAfter: 5
+        completed:
+        - !type:SpawnPrototype
+          prototype: AirTank
+        - !type:SpawnPrototype
+          prototype: AirTank
+        - !type:DeleteEntity

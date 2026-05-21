@@ -216,3 +216,11 @@
   targetNode: bagPet
   category: construction-category-clothing
   objectType: Item
+
+- type: construction # Omu
+  id: TankDouble
+  graph: TankDoubleWeld
+  startNode: start
+  targetNode: doubletank
+  category: construction-category-tools
+  objectType: Item

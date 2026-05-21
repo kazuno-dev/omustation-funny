@@ -10,15 +10,18 @@
   - type: Item
     size: Normal
     sprite: _Omu/Objects/Tanks/generic_double.rsi
-  - type: Construction
-    graph: TankDoubleWeld
-    node: finishedtank
+  - type: ClothingSpeedModifier #But that protection comes at a price.
+    walkModifier: 0.95
+    sprintModifier: 0.95
   - type: GasTank
     outputPressure: 21.3
     air:
       volume: 10
       temperature: 293.15
     tankLowPressure: 30.0
+  - type: Construction
+    graph: TankDoubleWeld
+    node: doubletank
 
 - type: entity
   parent: BaseItem
@@ -32,3 +35,6 @@
   - type: Item
     size: Normal
     sprite: _Omu/Objects/Tanks/generic_double.rsi
+  - type: Construction
+    graph: TankDoubleWeld
+    node: wiredtank
