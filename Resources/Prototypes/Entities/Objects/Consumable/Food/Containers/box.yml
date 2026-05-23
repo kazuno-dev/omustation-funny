@@ -452,7 +452,7 @@
     contents:
     - id: FoodDonkpocket
       amount: 6
-    - id: DonkCoFlippo
+    - id: DonkCoFlippo # Omu change.
       amount: 1
       prob: 0.10
 
