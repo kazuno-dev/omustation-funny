@@ -276,7 +276,7 @@
   groupBy: "smokeables"
 
 - type: loadout
-  id: DonkCoFlippo
+  id: DonkCoFlippo # Omu
   effects:
   - !type:JobRequirementLoadoutEffect
     requirement:
@@ -285,7 +285,7 @@
       time: 360000 # 100hr
   storage:
     back:
-    - DonkCoFlippo
+    - DonkCoFlippo # Omu
   groupBy: "smokeables"
 
 - type: loadout

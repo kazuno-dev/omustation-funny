@@ -696,7 +696,7 @@
 
 - type: entity
   parent: [BaseBrandedLighter]
-  id: DonkCoFlippo
+  id: DonkCoFlippo # Omu
   name: Donk Co. flippo
   description: "The flippo of choice for the seasoned traitor. A Breaded novelty lighter made by Donk Co. Somehow edible while lit."
   components:

@@ -179,7 +179,7 @@
       - id: GorlexMatchbox
         orGroup: Lighterbox
         weight: 0.15
-      - id: DonkCoFlippo
+      - id: DonkCoFlippo # Omu
         orGroup: Lighterbox
         weight: 0.25
       - id: SyndicateFlippo
@@ -202,7 +202,7 @@
         orGroup: Lighterbox
       - id: GorlexMatchbox
         orGroup: Lighterbox
-      - id: DonkCoFlippo
+      - id: DonkCoFlippo # Omu
         orGroup: Lighterbox
       - id: SyndicateFlippo
         orGroup: Lighterbox
