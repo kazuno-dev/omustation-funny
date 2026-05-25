@@ -510,7 +510,7 @@
     color: magenta
 
 - type: entity
-  parent: [BaseBrandedLighter]
+  parent: [BaseBrandedLighter] # Omu, remove contra status
   id: InterdyneFlippo
   name: Interdyne Flippo
   description: "A deep blue flippo lighter, decorated with the logo of Interdyne Pharmaceuticals' 'Gene Clean' clinics. Become the master of your own cigarette."
