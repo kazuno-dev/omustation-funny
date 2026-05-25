@@ -4234,3 +4234,15 @@ Entries:
         from 1 to 6.
   id: 540
   time: '2026-05-25T01:06:33.0000000+00:00'
+- author: ArtemisYK
+  changes:
+    - type: Add
+      message: Add's the Pet teleporter to the HoS' locker
+    - type: Remove
+      message: Removed Security pets (Shiva, Trevor and Laika) Spawn points from maps
+    - type: Tweak
+      message: >-
+        Replaced maints airlock whit medical airlock leading to surgery theater
+        in Glacier 
+  id: 541
+  time: '2026-05-25T11:06:56.0000000+00:00'
