@@ -81,6 +81,7 @@
   components:
   - type: RussianAccent
   countsTowardsMaxTraits: false # Omustation - Don't count accents towards max traits
+  # Omu end
 
 - type: trait
   id: ItalianAccent
