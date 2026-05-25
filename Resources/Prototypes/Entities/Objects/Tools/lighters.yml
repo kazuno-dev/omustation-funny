@@ -490,7 +490,7 @@
         maxVol: 3
 
 - type: entity
-  parent: [BaseBrandedLighter]
+  parent: [BaseBrandedLighter] # Omu, remove contra status
   id: CybersunFlippo
   name: CyberSun Flippo
   description: "A Sleek black and magenta flippo lighter, bearing the logo and iconography of CyberSun Industries."
