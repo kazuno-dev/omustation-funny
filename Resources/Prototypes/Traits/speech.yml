@@ -71,6 +71,7 @@
   - type: GermanAccent
   countsTowardsMaxTraits: false # Omustation - Don't count accents towards max traits
 
+# Omu start
 - type: trait
   id: RussianAccent
   name: trait-russian-name
