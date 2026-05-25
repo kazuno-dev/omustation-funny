@@ -630,7 +630,7 @@
     color: green
 
 - type: entity
-  parent: [BaseBrandedLighter]
+  parent: [BaseBrandedLighter] # Omu, remove contra status
   id: WaffleCoFlippo
   name: Waffle Co. flippo
   description: "A robust mass produced lighter. The Waffle Co. logo turns the spark wheel when pushed up, minimising risk of lighter burns for even the most inept user."
