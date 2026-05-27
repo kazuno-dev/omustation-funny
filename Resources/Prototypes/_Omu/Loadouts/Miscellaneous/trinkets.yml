@@ -289,18 +289,6 @@
   groupBy: "smokeables"
 
 - type: loadout
-  id: CentCommFlippo
-  effects:
-  - !type:RequirementLoadoutEffect
-    requirement:
-      !type:DepartmentTimeRequirement
-      department: CentralCommand
-      time: 180000 # 50hr
-  storage:
-    back:
-    - CentCommFlippo
-
-- type: loadout
   id: HonkCoFlippo
   effects:
   - !type:JobRequirementLoadoutEffect
