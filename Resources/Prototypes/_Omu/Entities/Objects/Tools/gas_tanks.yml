@@ -10,7 +10,7 @@
   - type: Item
     size: Normal
     sprite: _Omu/Objects/Tanks/generic_double.rsi
-  - type: ClothingSpeedModifier #But that protection comes at a price.
+  - type: ClothingSpeedModifier
     walkModifier: 0.95
     sprintModifier: 0.95
   - type: GasTank
